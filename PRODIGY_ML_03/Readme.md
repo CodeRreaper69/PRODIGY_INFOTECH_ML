@@ -38,4 +38,5 @@ This project aims to classify images of dogs and cats using a Support Vector Mac
    ```
 
 4. Enter the path of an image when prompted and observe the model's prediction.
+5. Dataset link - https://www.kaggle.com/datasets/tongpython/cat-and-dog
 
