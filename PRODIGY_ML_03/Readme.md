@@ -22,6 +22,8 @@ This project aims to classify images of dogs and cats using a Support Vector Mac
 1. Ensure you have the required libraries installed, including NumPy, OpenCV, Matplotlib, and scikit-learn.
    ```bash
    pip install numpy opencv-python matplotlib scikit-learn
+   or
+   pip install -r requirements.txt
    ```
 
 2. Run `image_svm.py` to preprocess the images and create the pickled dataset.
