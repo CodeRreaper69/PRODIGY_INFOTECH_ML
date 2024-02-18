@@ -45,7 +45,3 @@ This project focuses on segmenting mall customers based on their annual income a
    ```
 
 - The script reads the "Mall_Customers.csv" dataset, analyzes customer behavior, and segments them into clusters based on income and spending score.
-
-- Customize the script or explore additional features for further analysis or to enhance the segmentation model.
-
-Feel free to reach out if you have any questions or need further assistance. Happy exploring!
