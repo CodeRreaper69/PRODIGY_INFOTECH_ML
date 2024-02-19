@@ -1,50 +1,59 @@
-# Hand Gesture Recognition using SVM
+# Machine Learning Projects under Prodigy Infotech
 
-This project implements a hand gesture recognition system using a Support Vector Machine (SVM) model. The model is trained on a dataset containing hand gesture images, and it achieves a 100% accuracy score.
+## Introduction
 
-## Dataset
+Welcome to the Machine Learning Projects repository! This repository contains implementations of various machine learning models for different tasks. Whether you are interested in predicting house prices, clustering retail customers, classifying images of cats and dogs, recognizing hand gestures, or estimating calorie content in food images, this repository has you covered.
 
-The dataset used for training and testing the model can be found on Kaggle: [Hand Gesture Recognition Dataset](https://www.kaggle.com/datasets/aryarishabh/hand-gesture-recognition-dataset)
+## Tasks Overview
 
-## Project Structure
+### Task-01: House Price Prediction with Linear Regression
 
-- `gesture.py`: Script for collecting and storing grayscale hand gesture images in a pickled format (`data.pickle`).
-- `train.py`: Script for training an SVM model on the collected data and testing its accuracy.
-- `train_test.py`: Real-time hand gesture recognition using the trained SVM model on live video feed.
+Implement a linear regression model to predict house prices based on square footage, the number of bedrooms, and bathrooms.
 
-## Instructions
+### Task-02: Retail Customer Clustering with K-means
 
-1. **Collect Data**: Run `gesture.py` to capture and store grayscale hand gesture images in the `data.pickle` file.
+Create a K-means clustering algorithm to group retail store customers based on their purchase history, providing insights into customer segmentation.
 
-    ```bash
-    python gesture.py
-    or
-     python3 gesture.py
-    ```
+### Task-03: Cat and Dog Image Classification with SVM
 
-2. **Train the Model**: Execute `train.py` to train the SVM model on the collected data.
+Implement a Support Vector Machine (SVM) to classify images of cats and dogs from the Kaggle dataset, showcasing image classification skills.
 
-    ```bash
-    python train.py
-    or
-    python3 train.py
-    ```
+### Task-04: Hand Gesture Recognition
 
-3. **Test the Model in Real-time**: Run `train_test.py` for real-time hand gesture recognition using the trained model on live video feed.
+Develop a hand gesture recognition model for intuitive human-computer interaction and gesture-based control systems, offering a novel approach to user interaction.
 
-    ```bash
-    python train_test.py
-     python3 train_test.py
-    ```
+### Task-05: Food Recognition and Calorie Estimation
+
+Create a model that accurately recognizes food items from images and estimates their calorie content, empowering users to track their dietary intake and make informed food choices.
+
+## Implementation Details
+
+Each task is contained in a separate directory with its respective implementation files. The directory structure is organized as follows:
+
+- `Task-01_House_Price_Prediction`: Linear regression model for predicting house prices.
+- `Task-02_Customer_Clustering`: K-means clustering algorithm for retail customer segmentation.
+- `Task-03_Image_Classification_SVM`: SVM model for classifying cat and dog images.
+- `Task-04_Hand_Gesture_Recognition`: Hand gesture recognition model implementation.
+- `Task-05_Food_Recognition_Calorie_Estimation`: Model for recognizing food items and estimating their calorie content.
+
+## Usage Instructions
+
+For each task, there are detailed instructions on how to run the code and any additional setup required. Make sure to follow the specific guidelines provided in each task's directory.
 
 ## Dependencies
 
-- OpenCV
-- NumPy
-- Matplotlib
-- scikit-learn
-
-Install dependencies using:
+The projects use common machine learning libraries such as NumPy, scikit-learn, OpenCV, and Matplotlib. Install the dependencies using the following command:
 
 ```bash
-pip install opencv-python numpy matplotlib scikit-learn
+pip install numpy scikit-learn opencv-python matplotlib
+```
+
+## Author
+
+- **Sourabh Dey** - CSE Second Year Undergraduate
+
+## Acknowledgments
+
+Special thanks to Prodigy Infotech for providing the internship opportunity and fostering a learning environment.
+
+Thank you reader!
