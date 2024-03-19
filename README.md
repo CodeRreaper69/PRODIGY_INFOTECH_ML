@@ -34,7 +34,6 @@ Each task is contained in a separate directory with its respective implementatio
 - `Task-02_Customer_Clustering`: K-means clustering algorithm for retail customer segmentation.
 - `Task-03_Image_Classification_SVM`: SVM model for classifying cat and dog images.
 - `Task-04_Hand_Gesture_Recognition`: Hand gesture recognition model implementation.
-- `Task-05_Food_Recognition_Calorie_Estimation`: Model for recognizing food items and estimating their calorie content.
 
 ## Usage Instructions
 
