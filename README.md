@@ -8,23 +8,21 @@ Welcome to the Machine Learning Projects repository! This repository contains im
 
 ### Task-01: House Price Prediction with Linear Regression
 
-Implement a linear regression model to predict house prices based on square footage, the number of bedrooms, and bathrooms.
+Implemented a linear regression model to predict house prices based on square footage, the number of bedrooms, and bathrooms.
 
 ### Task-02: Retail Customer Clustering with K-means
 
-Create a K-means clustering algorithm to group retail store customers based on their purchase history, providing insights into customer segmentation.
+Created a K-means clustering algorithm to group retail store customers based on their purchase history, providing insights into customer segmentation.
 
 ### Task-03: Cat and Dog Image Classification with SVM
 
-Implement a Support Vector Machine (SVM) to classify images of cats and dogs from the Kaggle dataset, showcasing image classification skills.
+Implemented a Support Vector Machine (SVM) to classify images of cats and dogs from the Kaggle dataset, showcasing image classification skills.
 
 ### Task-04: Hand Gesture Recognition
 
-Develop a hand gesture recognition model for intuitive human-computer interaction and gesture-based control systems, offering a novel approach to user interaction.
+Developed a hand gesture recognition model for intuitive human-computer interaction and gesture-based control systems, offering a novel approach to user interaction.
 
-### Task-05: Food Recognition and Calorie Estimation
 
-Create a model that accurately recognizes food items from images and estimates their calorie content, empowering users to track their dietary intake and make informed food choices.
 
 ## Implementation Details
 
